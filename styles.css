@@ -1,0 +1,46 @@
+h1{
+    color:#30D5C8;
+    text-align:center;
+    font-size:40px;
+     font-family: 'Lobster', cursive;
+}
+
+h2{
+color:#30D5C8;
+    text-align:left;
+    font-size:30px;
+    font-family: 'Indie Flower', cursive;
+}
+
+body{
+    background-color:#FFE5B4;
+}
+
+
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.images {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;    
+}
+
+img {
+    height: 300px;
+    width: 400px;
+    display: none;
+    /* Hide all the images on page load */
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+img.default {
+    display: block;
+    /* Show default image on page load */
+}
